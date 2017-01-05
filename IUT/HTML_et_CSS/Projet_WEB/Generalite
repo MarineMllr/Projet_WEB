@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+		<!-- Logo à côté du titre du site (trouver sur un forum) -->
+		<link rel="icon" href="assets/favicon.ico">
+		<title>AlphaGo - Généralités</title>
+	</head>
+	<body>
+		<!-- Nav -->
+			<nav id="presentation-sec">
+				<div class="barre">
+					<div class="logo">
+						<a class="logo-haut" href="Accueil.html#logo-haut"><img src="assets/alphago.png" alt="Logo du robot" /></a>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a href="Accueil.html">ACCUEIL</a></li>
+							<li><a href="Presentation.html">PRESENTATION DU JEU DE GO</a></li>
+							<li class="active"><a href="Generalite.html">ALPHA GO EN GENERAL</a></li>	
+							<li><a href="Fonctionnement.html">SON FONCTIONNEMENT</a></li>
+							<li><a href="IA.html">UNE INTELLIGENCE ARTIFICIELLE</a></li>
+							<li><a href="Defi.html">UN DEFI</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- Fin Nav -->
+		<!-- Article -->
+		<article>
+		<div >
+		Alpha Go est une IA conçue par DeepMind, une filiale de Google. 
+		Développée avec la technologie du DeepLearning
+		Maîtrise le jeu de Go
+		A battu un des meilleurs joueurs du monde, Lee Sedom, 4-1 en mars 2016
+		Meilleur joueur du monde selon Goratings le 18 juillet 2016
+		Cette IA représentait le nouveau défi après son précurseur DeepBlue, qui a réussi en 1997 à battre le champion du monde d’échecs Gary Kasparov. Ce défi était considéré comme beaucoup plus difficile en raison de la complexité d’environ 10600, comparée à celle du jeu d’échec, 10120.
+
+		</div>
+		</article>
+		<!-- Footer -->
+		<footer>
+			<p>Réalisé dans le cadre d'un Projet Web - Tous droits réservés - &copy; IUT Lyon 1</p>
+		</footer>
+		<!-- Fin Footer -->
+	</body>
+</html>
