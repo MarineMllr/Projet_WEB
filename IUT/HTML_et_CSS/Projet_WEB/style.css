@@ -190,3 +190,16 @@ footer p
 	color: white;
 	text-align: center;
 }
+
+<!-- Partie Presentation -->
+
+article .pres
+{
+	padding-top: 10%;
+	color:blue;
+}
+
+article .presliste
+{
+	padding-left: 5%;
+}
