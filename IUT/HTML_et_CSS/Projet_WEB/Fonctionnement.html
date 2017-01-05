@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+		<!-- Logo à côté du titre du site (trouver sur un forum) -->
+		<link rel="icon" href="assets/favicon.ico">
+		<title>AlphaGo - Son Fonctionnement</title>
+	</head>
+	<body>
+		<!-- Nav -->
+			<nav id="presentation-sec">
+				<div class="barre">
+					<div class="logo">
+						<a class="logo-haut" href="Accueil.html#logo-haut"><img src="assets/alphago.png" alt="Logo du robot" /></a>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a href="Accueil.html">ACCUEIL</a></li>
+							<li><a href="Presentation.html">PRESENTATION DU JEU DE GO</a></li>
+							<li><a href="Generalite.html">ALPHA GO EN GENERAL</a></li>	
+							<li class="active"><a href="Fonctionnement.html">SON FONCTIONNEMENT</a></li>
+							<li><a href="IA.html">UNE INTELLIGENCE ARTIFICIELLE</a></li>
+							<li><a href="Defi.html">UN DEFI</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- Fin Nav -->
+		<!-- Article -->
+		<article>
+		<div >
+		<p>On peut se représenter le goban comme une matrice pouvant prendre les valeurs 0 (absence de pierre), -1 (pierre adverse) ou 1 (pierre alliée). </p>
+		<p>Simuler chaque coup possible, jusqu’à la fin de la partie, serait beaucoup trop coûteux : le nombre de possibilités dépasserait rapidement le nombre d’atomes présents dans l’univers.</p> 
+		<p>L’IA filtre donc les scénarios : à chaque coup, elle calcule la probabilité du prochain et élimine ceux dont la probabilité est la plus faible. Ensuite, au lieu de simuler les scénarios jusqu’à la fin de la partie et les compléter, l’IA prédit avec une certaine profondeur (par exemple de 4) les prochains coups, ce qui lui permet d’économiser de nombreuses ressources et d’éviter des calculs inutiles. Si elle se trompe, il lui suffit de prendre en compte son erreur et de rectifier les scénarios.</p>
+
+		</div>
+		</article>
+		<!-- Footer -->
+		<footer>
+			<p>Réalisé dans le cadre d'un Projet Web - Tous droits réservés - &copy; IUT Lyon 1</p>
+		</footer>
+		<!-- Fin Footer -->
+	</body>
+</html>
