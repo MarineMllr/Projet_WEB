@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+		<!-- Logo à côté du titre de la page (trouver sur un forum) -->
+		<link rel="icon" href="assets/favicon.ico">
+		<title>AlphaGo - Accueil</title>
+	</head>
+	<body>
+		<!-- Nav -->
+			<nav>
+				<div class="barre">
+					<div class="logo">
+						<a class="logo-haut" href="Accueil.html"><img src="assets/alphago.png" alt="Logo du robot" /></a>
+					</div>
+					<div class="menu">
+						<ul>
+							<li class="active"><a href="Accueil.html">ACCUEIL</a></li>
+							<li><a href="Presentation.html">PRESENTATION DU JEU DE GO</a></li>
+							<li><a href="Generalite.html">ALPHA GO EN GENERAL</a></li>	
+							<li><a href="Fonctionnement.html">SON FONCTIONNEMENT</a></li>
+							<li><a href="IA.html">UNE INTELLIGENCE ARTIFICIELLE</a></li>
+							<li><a href="Defi.html">UN DEFI</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- Fin Nav -->
+		<!-- Article -->
+		<article>
+		<div id="accueil-sec">
+			<div class="texte-accueil">
+				<h1 class="pj">Le Projet Tuteuré au S1</h1>
+				<h1>Quand l'intelligence artificielle surpasse l'Homme...</h1>
+				<h2>AlphaGo</h2>
+            </div>
+        </div>
+		</article>
+		<!-- Fin Article -->
+		<div id="contenu">
+			<h1 class="titre_membres">Infos sur les membres du sites</h1>
+			<div class="cadre_marine">
+				<img class="ph-marine" src="assets/marine.png" alt="Photo de Marine" />
+				<div class="titrem"> MOLLIER Marine </div>
+			</div>
+			<div class="cadre_charlotte">
+				<img class ="ph-charlotte" src="assets/charlotte.png" alt="Photo de Charlotte" />
+				<table class="presentation_c">
+					<p>Nom : PINEAU</p>
+					<p>Prénom : Charlotte</p>
+				</table>
+			</div>
+		<div class="affiche">
+		<img src="assets/affiche.jpg" alt="Affiche Projet Tuteuré" />
+		</div>
+		<div class="questionnaire">
+		<form method="post" action="Mail.php">
+			<select name="genre">
+				<option value="homme">Homme</option>
+				<option value="femme">Femme</option>
+			</select>
+			<span class="champ"><strong>* Champs obligatoires !</strong></span>
+			<table>
+				<tr>
+					<td><label for="nom">* Nom :</label></td>
+					<td><label for="prenom">* Prénom :</label></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="nom" placeholder="Nom"></td>
+					<td><input type="text" name="prenom" placeholder="Prénom"></td>
+				</tr>
+				<tr>
+					<td><label for="age">Age :</label></td>
+					<td><label for="email">* Mail :</label></td>
+				</tr>
+				<tr>
+					<td><input type="number" name="age" placeholder="Entrez votre âge"></td>
+					<td><input type="text" name="email" placeholder="Mail"></td>
+				</tr>
+				<tr>
+					<td><label for="message">Suggestion pour améliorer le site :</label></td></tr>
+				<tr>
+					<td><textarea name="message" placeholder="Ecrivez votre message" rows="5" cols="40" ></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Envoyer"/></td>
+					<td><input type="reset" value="Annuler"/></td>
+				</tr>
+				<!-- Formulaire PHP trouvé sur internet -->
+			</table>
+		</form>
+		</div>
+		<div class="carte">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4513.432270221684!2d4.8823769723597295!3d45.78404808171153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f808af88cda1faa!2sIUT+LYON+1+-+Site+de+Villeurbanne+Doua!5e0!3m2!1sfr!2sfr!4v1482795647056" width="600" height="400" frameborder="0" style="border:2px solid black;" allowfullscreen></iframe>
+		</div>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<p>Réalisé dans le cadre d'un Projet Web - Tous droits réservés - &copy; IUT Lyon 1</p>
+		</footer>
+		</div>
+		<!-- Fin Footer -->
+	</body>
+</html>
+	
