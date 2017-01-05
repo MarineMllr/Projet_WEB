@@ -1,0 +1,192 @@
+body
+{
+	font-family:sans-serif;
+    font-size: 14px;
+	margin: 0px;
+}
+
+header
+{
+	height: 55px;
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 4px;
+}
+
+
+
+#accueil-sec 
+{     
+	background: url("acc.jpg") no-repeat;
+	background-attachment: fixed;
+	padding-top: 80px;
+	padding-bottom: 750px;
+	display: block;
+}
+
+.barre
+{
+	position: fixed; 
+	top:0px;
+	background-color: white;
+	width: 100%;
+}
+
+.logo
+{
+	display: inline-block;
+	width: 12%;
+	padding-top: 4px;
+}
+
+.menu .active a
+{
+	color: grey;
+}
+
+.menu ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 21px;
+	text-align: center;
+	height: 100%;
+}
+
+.menu 
+{
+	font-weight : bold;
+	font-family : Arial;
+	font-size : 12px;
+	display: inline-block;
+	width: 88%;
+	float: right;
+	height: 100%;
+}
+
+.menu a 
+{
+	display : block;
+	padding : 0px;
+	background : #fff;   
+	color : #000;
+	text-decoration : none;
+	height: 100%;
+	line-height: 45px;
+}
+
+.menu li 
+{
+	float : left;
+	border-right : 1px solid #fff;
+	min-width: 220px;
+}
+
+html>body .menu li 
+{
+	border-right: 1px solid transparent;
+}
+
+.menu a:hover 
+{
+	color: #fff;
+	background: #000;
+	text-decoration: underline;
+}
+
+.texte-accueil
+{
+	color: white;
+}
+
+.texte-accueil .pj
+{
+    font-size:50px ;
+    font-weight:900;
+    border:5px double #fff;
+	width: 800px;
+    text-transform:uppercase;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.titre_membres
+{	
+	text-decoration: underline;
+	text-align: center;
+}
+
+.cadre_marine
+{
+	border: 3px solid black;
+	width: 450px;
+	display: inline-block;
+	height: 350px;
+	background-color: rgb(253, 233, 224);
+	margin-top: 30px;
+}
+
+.cadre_charlotte
+{
+	border: 3px solid black;
+	width: 450px;
+	display: inline-block;
+	height: 350px;
+	background-color: rgb(253, 233, 224);
+	margin-top: 30px;
+}
+
+.presentation_c
+{
+	float: right;
+}
+
+.pc
+{
+	float: left;
+}
+
+#contenu
+{
+	background-color: #f0f0f0;
+}
+.carte
+{
+	display: inline-block;
+	float: right;
+}
+
+.questionnaire
+{
+	display: inline-block;
+	float: left;
+	background-color: rgb(206, 206, 206);
+	width: 550px;
+	border: 2px solid black;
+	margin-bottom: 100px;
+	margin-left: 20px;
+}
+
+.questionnaire .champ
+{
+	color: red;
+	font-weight: bold;
+}
+
+footer
+{
+	background-color: rgb(0, 51, 102);
+	position: fixed;
+	bottom: 0px;
+	width: 500px;
+	border: 2px solid black;
+	margin-left: 515px;
+}
+
+footer p
+{
+	color: white;
+	text-align: center;
+}
