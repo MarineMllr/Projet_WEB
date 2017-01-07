@@ -13,8 +13,6 @@ header
 	border-radius: 4px;
 }
 
-
-
 #accueil-sec 
 {     
 	background: url("acc.jpg") no-repeat;
@@ -112,50 +110,37 @@ html>body .menu li
 	margin-left: auto;
 }
 
-.titre_membres
+.titre
 {	
 	text-decoration: underline;
 	text-align: center;
 }
 
-.cadre_marine
+.a_propos
 {
-	border: 3px solid black;
-	width: 450px;
-	display: inline-block;
-	height: 350px;
-	background-color: rgb(253, 233, 224);
-	margin-top: 30px;
+	padding-top: 10px;
 }
 
-.cadre_charlotte
+.a_propos h2
 {
-	border: 3px solid black;
-	width: 450px;
-	display: inline-block;
-	height: 350px;
-	background-color: rgb(253, 233, 224);
-	margin-top: 30px;
+	color: rgb(75, 0, 130);
 }
 
-.presentation_c
+.a_propos .avis
 {
-	float: right;
+	padding-left: 50px;
 }
 
-.pc
+.a_propos .trouver
 {
-	float: left;
+	padding-left: 40px;
 }
 
-#contenu
-{
-	background-color: #f0f0f0;
-}
 .carte
 {
 	display: inline-block;
 	float: right;
+	padding-bottom: 80px;
 }
 
 .questionnaire
@@ -165,14 +150,91 @@ html>body .menu li
 	background-color: rgb(206, 206, 206);
 	width: 550px;
 	border: 2px solid black;
+	border-radius:5px;
 	margin-bottom: 100px;
 	margin-left: 20px;
+	padding-left: 50px;
 }
 
 .questionnaire .champ
 {
 	color: red;
 	font-weight: bold;
+}
+
+.cadre_marine 
+{
+	background-color: lightgrey;
+	border: 3px solid black;
+	padding: 10px;
+	margin-left: 40px;
+	width: 500px;
+	margin-right: 300px;
+	display: inline-block;
+	height: 160px;
+	-moz-box-shadow: 10px 10px 5px 0px #656565;
+	-webkit-box-shadow: 10px 10px 5px 0px #656565;
+	-o-box-shadow: 10px 10px 5px 0px #656565;
+	box-shadow: 10px 10px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+}
+
+.cadre_charlotte
+{
+	background-color: lightgrey;
+	border: 3px solid black;
+	padding: 10px;
+	text-align: right;
+	display: inline-block;
+	width: 500px;
+	height: 160px;
+	-moz-box-shadow: 10px 10px 5px 0px #656565;
+	-webkit-box-shadow: 10px 10px 5px 0px #656565;
+	-o-box-shadow: 10px 10px 5px 0px #656565;
+	box-shadow: 10px 10px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+}
+
+.info_marine 
+{
+	font-size: 13px;
+}
+
+.info_charlotte
+{
+	font-size: 13px;
+	text-align: left;
+}
+
+.info_charlotte strong
+{
+	font-weight: bold;
+}
+
+.info_marine strong
+{
+	font-weight: bold;
+}
+
+.info_charlotte
+{
+	display: inline-block;
+}
+
+.photo_marine
+{
+	border: 1px solid black;
+	float: left;
+}
+
+#membres
+{
+	background-color: #f0f0f0;
+}
+
+.affiche
+{
+	margin-left: 350px;
 }
 
 footer
