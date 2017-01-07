@@ -202,19 +202,24 @@ article .presentation
 	padding-top: 10%;
 	color:black;
 	width:80%;
-	text-align:justify;
 	padding-left:5%;
 	padding-right: 15%;
 	padding-bottom: 6%;
 	background-color: rgb(239,239,239);
-	font-size: 15pt;
 	font-family:serif;
 }
 article .presvideo
 {
-	padding-left: 25%;
+	text-align:center;
 }
 video
 {
-	padding-left: 30%;
+	width:100%;
+}
+
+article .presentation .texte
+{
+	text-align:justify;
+	font-size: 15pt;
+
 }
