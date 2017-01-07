@@ -29,11 +29,17 @@
 		<!-- Fin Nav -->
 		<!-- Article -->
 		<article>
-		<div >
-		<p>On peut se représenter le goban comme une matrice pouvant prendre les valeurs 0 (absence de pierre), -1 (pierre adverse) ou 1 (pierre alliée). </p>
-		<p>Simuler chaque coup possible, jusqu’à la fin de la partie, serait beaucoup trop coûteux : le nombre de possibilités dépasserait rapidement le nombre d’atomes présents dans l’univers.</p> 
-		<p>L’IA filtre donc les scénarios : à chaque coup, elle calcule la probabilité du prochain et élimine ceux dont la probabilité est la plus faible. Ensuite, au lieu de simuler les scénarios jusqu’à la fin de la partie et les compléter, l’IA prédit avec une certaine profondeur (par exemple de 4) les prochains coups, ce qui lui permet d’économiser de nombreuses ressources et d’éviter des calculs inutiles. Si elle se trompe, il lui suffit de prendre en compte son erreur et de rectifier les scénarios.</p>
+		<div class="presentation" >
+			<div class="titre">
+			<h1>Comment Alpha Go peut-elle jouer au Go ?</h1>
+			</div>
+			<br>
+			<div class="texte">
+			<p>On peut se représenter le goban comme une matrice pouvant prendre les valeurs 0 (absence de pierre), -1 (pierre adverse) ou 1 (pierre alliée). </p>
+			<p>Simuler chaque coup possible, jusqu’à la fin de la partie, serait beaucoup trop coûteux : le nombre de possibilités dépasserait rapidement le nombre d’atomes présents dans l’univers.</p> 
+			<p>L’IA filtre donc les scénarios : à chaque coup, elle calcule la probabilité du prochain et élimine ceux dont la probabilité est la plus faible. Ensuite, au lieu de simuler les scénarios jusqu’à la fin de la partie et les compléter, l’IA prédit avec une certaine profondeur (par exemple de 4) les prochains coups, ce qui lui permet d’économiser de nombreuses ressources et d’éviter des calculs inutiles. Si elle se trompe, il lui suffit de prendre en compte son erreur et de rectifier les scénarios.</p>
 
+			</div>
 		</div>
 		</article>
 		<!-- Footer -->
