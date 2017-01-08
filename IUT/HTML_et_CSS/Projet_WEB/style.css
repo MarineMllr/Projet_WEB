@@ -340,8 +340,9 @@ html>body .menu li
 
 .affiche
 {
-	margin-left: 350px;
+	margin-left: 5%;
 	border: 3px solid black;
+	width:90%
 }
 
 footer
