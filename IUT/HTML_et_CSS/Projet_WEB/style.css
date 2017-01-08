@@ -355,7 +355,7 @@ article .presentation
 	padding-top: 10%;
 	width:70%;
 	background-color: black;
-	background-image:url("galaxy.png");
+	background-image:url("fondpartie.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	padding-left:15%;
@@ -367,7 +367,7 @@ article .presentation .texte
 	text-align:justify;
 	font-size: 15pt;
 	font-family:serif;
-	color:rgb(206,206,206);
+	color:rgb(239,239,239);
 
 }
 article .presvideo
@@ -385,7 +385,7 @@ article .titre
 	font-variant: small-caps;
 	text-align:center;
 	font-family:sans-serif;
-	color:rgb(61,43,31);
+	color:rgb(186,186,186);
 }
 
 section .info
