@@ -341,8 +341,8 @@ html>body .menu li
 .affiche
 {
 	margin-left: 25%;
+	width: 50%;
 	border: 3px solid black;
-	width:50%
 }
 
 footer
@@ -360,8 +360,6 @@ footer p
 	color: white;
 	text-align: center;
 }
-
-/* Partie Présentation */
 
 article .presentation
 {
@@ -406,4 +404,21 @@ section .info
 	background-image:url("galaxy.png");
 	background-attachment: fixed;
 	background-position: center;
+}
+
+.texte
+{
+	background-color: rgb(108, 2, 119);
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid purple;
+	border-radius: 5px;
+}
+
+.presvideo p
+{
+	font-size: 20px;
+	font-weight: bold;
 }
