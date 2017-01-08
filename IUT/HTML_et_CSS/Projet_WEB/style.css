@@ -198,7 +198,7 @@ html>body .menu li
 
 .members_m
 {
-	margin-left: 65px;
+	margin-left: 5%;
 	border: 2px solid black;
 	width: 600px;
 	display: inline-block;
@@ -293,7 +293,7 @@ html>body .menu li
 
 .members_c
 {
-	margin-left: 65px;
+	margin-left: 5%;
 	border: 2px solid black;
 	width: 600px;
 	display: inline-block;
@@ -350,9 +350,9 @@ footer
 	background-color: rgb(0, 51, 102);
 	position: fixed;
 	bottom: 0px;
-	width: 500px;
+	width: 50%;
 	border: 2px solid black;
-	margin-left: 485px;
+	margin-left: 25%px;
 }
 
 footer p
