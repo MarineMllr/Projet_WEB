@@ -1,7 +1,7 @@
 body
 {
 	font-family:sans-serif;
-    	font-size: 14px;
+    font-size: 14px;
 	margin: 0px;
 }
 
@@ -29,15 +29,7 @@ header
 	background-color: white;
 	width: 100%;
 }
-@media handheld
-{
-.barre
-{
-	top:0px;
-	background-color: white;
-	width: 100%;
-}
-}
+
 .logo
 {
 	display: inline-block;
@@ -124,50 +116,69 @@ html>body .menu li
 	text-align: center;
 }
 
-.a_propos
+.carte iframe
 {
-	padding-top: 10px;
-}
-
-.a_propos h2
-{
-	color: rgb(75, 0, 130);
-}
-
-.a_propos .avis
-{
-	padding-left: 50px;
-}
-
-.a_propos .trouver
-{
-	padding-left: 40px;
-}
-
-.carte
-{
-	display: inline-block;
-	float: right;
-	padding-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: 400px;  
+	border: 2px solid black; 
+	margin-left: 20%;
+	margin-bottom: 40px;
+	border-radius: 5px;
 }
 
 .questionnaire
 {
-	display: inline-block;
-	float: left;
-	background-color: rgb(206, 206, 206);
+	background-color: rgb(136, 77, 167);
 	width: 550px;
 	border: 2px solid black;
 	border-radius:5px;
-	margin-bottom: 100px;
-	margin-left: 20px;
 	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 20%;
+}
+
+.questionnaire table
+{
+	font-size: 16px;
+	height: 380px;
+}
+
+.questionnaire .bouton
+{
+	height: 25px;
+	width: 80px;
+}
+
+.questionnaire input
+{
+	width: 230px;
+	height: 15px;
+}
+
+.questionnaire select
+{
+	height: 20px;
 }
 
 .questionnaire .champ
 {
-	color: red;
+	color: rgb(46, 0, 108);
 	font-weight: bold;
+}
+
+.a_propos
+{
+	font-size: 22px;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+.a_propos li
+{
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .members_m
@@ -297,9 +308,8 @@ html>body .menu li
 
 .affiche
 {
-	margin-left: 5%;
-	margin-right: 5%;
-	width:90%;
+	margin-left: 350px;
+	border: 3px solid black;
 }
 
 footer
@@ -307,9 +317,9 @@ footer
 	background-color: rgb(0, 51, 102);
 	position: fixed;
 	bottom: 0px;
-	width: 50%;
+	width: 500px;
 	border: 2px solid black;
-	margin-left: 25%;
+	margin-left: 485px;
 }
 
 footer p
@@ -317,6 +327,8 @@ footer p
 	color: white;
 	text-align: center;
 }
+
+/* Partie Présentation */
 
 article .presentation
 {
