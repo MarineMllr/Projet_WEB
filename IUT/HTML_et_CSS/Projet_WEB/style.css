@@ -114,6 +114,8 @@ html>body .menu li
 {	
 	text-decoration: underline;
 	text-align: center;
+	font-family: cursive;
+	font-size: 32px;
 }
 
 .carte iframe
@@ -179,6 +181,7 @@ html>body .menu li
 {
 	font-weight: bold;
 	margin-bottom: 10px;
+	color: purple;
 }
 
 .members_m
@@ -187,7 +190,7 @@ html>body .menu li
 	border: 2px solid black;
 	width: 600px;
 	display: inline-block;
-	background-color: lightgrey;
+	background-color: rgb(128, 0, 128);
 	-moz-box-shadow: 10px 10px 5px 0px #656565;
 	-webkit-box-shadow: 10px 10px 5px 0px #656565;
 	-o-box-shadow: 10px 10px 5px 0px #656565;
@@ -282,7 +285,7 @@ html>body .menu li
 	border: 2px solid black;
 	width: 600px;
 	display: inline-block;
-	background-color: lightgrey;
+	background-color: rgb(75, 0, 130);
 	-moz-box-shadow: 10px 10px 5px 0px #656565;
 	-webkit-box-shadow: 10px 10px 5px 0px #656565;
 	-o-box-shadow: 10px 10px 5px 0px #656565;
@@ -304,6 +307,23 @@ html>body .menu li
 	display: inline-block;
 	padding-top: 15px;
 	font-size: 16px;
+}
+
+.aff
+{
+	background-image: url("Star.jpg");
+	padding-bottom: 50px;
+}
+
+.aff h1
+{
+	color: white;
+}
+
+.affiche:hover
+{
+	width: 1000px;
+	height: 706px;
 }
 
 .affiche
@@ -333,17 +353,14 @@ footer p
 article .presentation
 {
 	padding-top: 10%;
-	
 	width:70%;
 	background-color: black;
-	background-image:url("background.jpg");
+	background-image:url("galaxy.png");
 	background-attachment: fixed;
 	background-position: center;
 	padding-left:15%;
 	padding-right: 15%;
 	padding-bottom: 6%;
-	
-	
 }
 article .presentation .texte
 {
@@ -362,8 +379,6 @@ video
 	width:100%;
 }
 
-
-
 article .titre 
 {
 	font-size:20pt;
@@ -375,7 +390,7 @@ article .titre
 
 section .info
 {
-	background-image:url("background.jpg");
+	background-image:url("galaxy.png");
 	background-attachment: fixed;
 	background-position: center;
 }
