@@ -162,74 +162,129 @@ html>body .menu li
 	font-weight: bold;
 }
 
-.cadre_marine 
+.members_m
 {
-	background-color: lightgrey;
-	border: 3px solid black;
-	padding: 10px;
-	margin-left: 40px;
-	width: 500px;
-	margin-right: 300px;
+	margin-left: 65px;
+	border: 2px solid black;
+	width: 600px;
 	display: inline-block;
-	height: 160px;
+	background-color: lightgrey;
 	-moz-box-shadow: 10px 10px 5px 0px #656565;
 	-webkit-box-shadow: 10px 10px 5px 0px #656565;
 	-o-box-shadow: 10px 10px 5px 0px #656565;
 	box-shadow: 10px 10px 5px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
-}
-
-.cadre_charlotte
-{
-	background-color: lightgrey;
-	border: 3px solid black;
-	padding: 10px;
-	text-align: right;
-	display: inline-block;
-	width: 500px;
-	height: 160px;
-	-moz-box-shadow: 10px 10px 5px 0px #656565;
-	-webkit-box-shadow: 10px 10px 5px 0px #656565;
-	-o-box-shadow: 10px 10px 5px 0px #656565;
-	box-shadow: 10px 10px 5px 0px #656565;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
-}
-
-.info_marine 
-{
-	font-size: 13px;
-}
-
-.info_charlotte
-{
-	font-size: 13px;
-	text-align: left;
-}
-
-.info_charlotte strong
-{
-	font-weight: bold;
-}
-
-.info_marine strong
-{
-	font-weight: bold;
-}
-
-.info_charlotte
-{
-	display: inline-block;
 }
 
 .photo_marine
 {
-	border: 1px solid black;
-	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 6px;
 }
 
-#membres
+.photo_marine:hover
 {
-	background-color: #f0f0f0;
+	width: 250px;
+	height: 255px;
+}
+
+.photo_charlotte:hover
+{
+	width: 250px;
+	height: 255px;
+}
+
+.logo_fb:hover
+{
+	color:#343434;
+	-moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #656565;
+	background:#cfcfcf;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfcfcf", endColorstr="#656565"); /* Pour IE seulement et mode gradient à linear */
+	background: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#656565));
+	background: -webkit-linear-gradient(#cfcfcf, #656565);
+	background: -moz-linear-gradient(#cfcfcf, #656565);
+	background: -o-linear-gradient(#cfcfcf, #656565);
+	background: -ms-linear-gradient(#cfcfcf, #656565);
+	background: linear-gradient(#cfcfcf, #656565);
+}
+
+.logo_ld:hover
+{
+	color:#343434;
+	-moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #656565;
+	background:#cfcfcf;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfcfcf", endColorstr="#656565"); /* Pour IE seulement et mode gradient à linear */
+	background: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#656565));
+	background: -webkit-linear-gradient(#cfcfcf, #656565);
+	background: -moz-linear-gradient(#cfcfcf, #656565);
+	background: -o-linear-gradient(#cfcfcf, #656565);
+	background: -ms-linear-gradient(#cfcfcf, #656565);
+	background: linear-gradient(#cfcfcf, #656565);
+}
+
+.members_m table 
+{
+	height: 10%;
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 16px;
+}
+
+.logos
+{
+	margin-left: 518px;
+}
+
+.logos_c
+{
+	margin-left: 558px;
+}
+
+
+.members_c
+{
+	margin-left: 65px;
+	border: 2px solid black;
+	width: 600px;
+	display: inline-block;
+	background-color: lightgrey;
+	-moz-box-shadow: 10px 10px 5px 0px #656565;
+	-webkit-box-shadow: 10px 10px 5px 0px #656565;
+	-o-box-shadow: 10px 10px 5px 0px #656565;
+	box-shadow: 10px 10px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+}
+
+.photo_charlotte
+{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.members_c table 
+{
+	height: 10%;
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 16px;
 }
 
 .affiche
@@ -253,7 +308,8 @@ footer p
 	text-align: center;
 }
 
-/* Partie présentation */
+/* Partie Présentation */
+
 article .règles li
 {
 	display:block;
