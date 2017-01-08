@@ -21,7 +21,16 @@ header
 	padding-bottom: 750px;
 	display: block;
 }
-
+@media handheld
+	{
+		.barre
+		{
+			position: fixed; 
+			top:0px;
+			background-color: white;
+			width: 100%;
+		}
+}
 .barre
 {
 	position: fixed; 
