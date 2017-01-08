@@ -297,9 +297,9 @@ footer
 	background-color: rgb(0, 51, 102);
 	position: fixed;
 	bottom: 0px;
-	width: 500px;
+	width: 50%;
 	border: 2px solid black;
-	margin-left: 515px;
+	margin-left: 25%;
 }
 
 footer p
@@ -308,23 +308,28 @@ footer p
 	text-align: center;
 }
 
-/* Partie Présentation */
-
-article .règles li
-{
-	display:block;
-}
-
 article .presentation
 {
 	padding-top: 10%;
-	color:black;
-	width:80%;
-	padding-left:5%;
+	
+	width:70%;
+	background-color: black;
+	background-image:url("background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	padding-left:15%;
 	padding-right: 15%;
 	padding-bottom: 6%;
-	background-color: rgb(239,239,239);
+	
+	
+}
+article .presentation .texte
+{
+	text-align:justify;
+	font-size: 15pt;
 	font-family:serif;
+	color:rgb(206,206,206);
+
 }
 article .presvideo
 {
@@ -335,9 +340,20 @@ video
 	width:100%;
 }
 
-article .presentation .texte
-{
-	text-align:justify;
-	font-size: 15pt;
 
+
+article .titre 
+{
+	font-size:20pt;
+	font-variant: small-caps;
+	text-align:center;
+	font-family:sans-serif;
+	color:rgb(61,43,31);
+}
+
+section .info
+{
+	background-image:url("background.jpg");
+	background-attachment: fixed;
+	background-position: center;
 }
