@@ -1,7 +1,7 @@
 body
 {
 	font-family:sans-serif;
-    font-size: 14px;
+    	font-size: 14px;
 	margin: 0px;
 }
 
@@ -29,7 +29,15 @@ header
 	background-color: white;
 	width: 100%;
 }
-
+@media handheld
+{
+.barre
+{
+	top:0px;
+	background-color: white;
+	width: 100%;
+}
+}
 .logo
 {
 	display: inline-block;
